@@ -1,5 +1,3 @@
-package l_01_02;
-
 import java.util.Scanner;
 
 public class Switch {
@@ -107,11 +105,11 @@ public class Switch {
     if (isVowel) {
       System.out.println(bukva + " is a vowel");
     } else {
-        if ((bukva >= 'a' && bukva <= 'z') || (bukva >= 'A' && bukva <= 'Z')) {
-            System.out.println(bukva + " is a consonant");
-        } else {
-            System.out.println("soglasnaya");
-        }
+      if ((bukva >= 'a' && bukva <= 'z') || (bukva >= 'A' && bukva <= 'Z')) {
+        System.out.println(bukva + " is a consonant");
+      } else {
+        System.out.println("soglasnaya");
+      }
     }
     //3.Написать программу, находящую количество дней в месяце.
     // С клавиатуры вводятся два значения: номер месяца  и год.
@@ -132,12 +130,12 @@ public class Switch {
         break;
       case 2:
         int numberOfDaysFebruary;
-          if ((year % 4 == 0) && (((year % 100) != 0) || ((year % 100 == 0) && (year % 400
-              == 0)))) {
-              numberOfDaysFebruary = 29;
-          } else {
-              numberOfDaysFebruary = 29;
-          }
+        if ((year % 4 == 0) && (((year % 100) != 0) || ((year % 100 == 0) && (year % 400
+            == 0)))) {
+          numberOfDaysFebruary = 29;
+        } else {
+          numberOfDaysFebruary = 29;
+        }
         System.out.println("February " + numberOfDaysFebruary);
         break;
       case 3:
