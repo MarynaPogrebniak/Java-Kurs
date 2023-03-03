@@ -2,23 +2,41 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_17_08_02_Array/code/Array/Array.iml" filepath="$PROJECT_DIR$/It/Lesson_17_08_02_Array/code/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_16_07_02_for_continue/code/For_continue/For_continue.iml" filepath="$PROJECT_DIR$/It/Lesson_16_07_02_for_continue/code/For_continue/For_continue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-kurs.iml" filepath="$PROJECT_DIR$/.idea/Java-kurs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/l_01_03_Enum/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" filepath="$PROJECT_DIR$/It/l_01_03_Enum/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" filepath="$PROJECT_DIR$/It/Lesson_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_32_01_03_Enum/code/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" filepath="$PROJECT_DIR$/It/Lesson_32_01_03_Enum/code/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_13_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" filepath="$PROJECT_DIR$/It/Lesson_13_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/l_02_02/Lesson_02_02./Lesson_02_02..iml" filepath="$PROJECT_DIR$/It/l_02_02/Lesson_02_02./Lesson_02_02..iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_14_03_02_methods_return/code/Lesson_03_02/Lesson_03_02.iml" filepath="$PROJECT_DIR$/It/Lesson_14_03_02_methods_return/code/Lesson_03_02/Lesson_03_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_15_06_02_for/code/Lesson_06_02/Lesson_06_02.iml" filepath="$PROJECT_DIR$/It/Lesson_15_06_02_for/code/Lesson_06_02/Lesson_06_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_18_09_02_Array/code/Lesson_09_02_Array/Lesson_09_02_Array.iml" filepath="$PROJECT_DIR$/It/Lesson_18_09_02_Array/code/Lesson_09_02_Array/Lesson_09_02_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_19_10_02_array_seabattle_chess/Lesson_10_02/Lesson_10_02.iml" filepath="$PROJECT_DIR$/It/Lesson_19_10_02_array_seabattle_chess/Lesson_10_02/Lesson_10_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_10_30_01_if_else_replace_method/code/Lesson_10_30_01_if_else_replace_method/Lesson_10_30_01_if_else_replace_method.iml" filepath="$PROJECT_DIR$/It/Lesson_10_30_01_if_else_replace_method/code/Lesson_10_30_01_if_else_replace_method/Lesson_10_30_01_if_else_replace_method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_11_31_01_if_else_TernaryOperator/code/Lesson_11_31_01_if_else_TernaryOperator/Lesson_11_31_01_if_else_TernaryOperator.iml" filepath="$PROJECT_DIR$/It/Lesson_11_31_01_if_else_TernaryOperator/code/Lesson_11_31_01_if_else_TernaryOperator/Lesson_11_31_01_if_else_TernaryOperator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_12_01_02_Switch/code/Lesson_12_01_02_Switch/Lesson_12_01_02_Switch.iml" filepath="$PROJECT_DIR$/It/Lesson_12_01_02_Switch/code/Lesson_12_01_02_Switch/Lesson_12_01_02_Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_21_14_02_Debugging/Lesson_21_14_02_Debugging/Lesson_21_14_02_Debugging.iml" filepath="$PROJECT_DIR$/It/Lesson_21_14_02_Debugging/Lesson_21_14_02_Debugging/Lesson_21_14_02_Debugging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_22_15_02_ArrayyList/Lesson_22_15_02_ArrayList/Lesson_22_15_02_ArrayList.iml" filepath="$PROJECT_DIR$/It/Lesson_22_15_02_ArrayyList/Lesson_22_15_02_ArrayList/Lesson_22_15_02_ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/It/l_23_01/Lesson_23_01/Lesson_23_01.iml" filepath="$PROJECT_DIR$/It/l_23_01/Lesson_23_01/Lesson_23_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_30_01_replace_method/code/Lesson_30_01/Lesson_30_01.iml" filepath="$PROJECT_DIR$/It/Lesson_30_01_replace_method/code/Lesson_30_01/Lesson_30_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_24_01_Math/Math/Math.iml" filepath="$PROJECT_DIR$/It/Lesson_24_01_Math/Math/Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_23_16_02_ArrayLst_LinkedList/code/Lesson_23_16_02_ArrayLst_LinkedList/Lesson_23_16_02_ArrayLst_LinkedList.iml" filepath="$PROJECT_DIR$/It/Lesson_23_16_02_ArrayLst_LinkedList/code/Lesson_23_16_02_ArrayLst_LinkedList/Lesson_23_16_02_ArrayLst_LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_24_17_02_Exceptions_TryCatch_Debugger/code/Lesson_24_17_02_Exceptions_TryCatch_Debugger/Lesson_24_17_02_Exceptions_TryCatch_Debugger.iml" filepath="$PROJECT_DIR$/It/Lesson_24_17_02_Exceptions_TryCatch_Debugger/code/Lesson_24_17_02_Exceptions_TryCatch_Debugger/Lesson_24_17_02_Exceptions_TryCatch_Debugger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_25_20_02_HashSet/code/Lesson_25_20_02_HashSet/Lesson_25_20_02_HashSet.iml" filepath="$PROJECT_DIR$/It/Lesson_25_20_02_HashSet/code/Lesson_25_20_02_HashSet/Lesson_25_20_02_HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_26_21_02_HashMap/code/Lesson_26_21_02_HashMap/Lesson_26_21_02_HashMap.iml" filepath="$PROJECT_DIR$/It/Lesson_26_21_02_HashMap/code/Lesson_26_21_02_HashMap/Lesson_26_21_02_HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_27_22_02_hashMap/code/Lesson_27_22_02_hashMap/Lesson_27_22_02_hashMap.iml" filepath="$PROJECT_DIR$/It/Lesson_27_22_02_hashMap/code/Lesson_27_22_02_hashMap/Lesson_27_22_02_hashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_29_24_02_practice/Lesson_29_24_02_practice/Lesson_29_24_02_practice.iml" filepath="$PROJECT_DIR$/It/Lesson_29_24_02_practice/Lesson_29_24_02_practice/Lesson_29_24_02_practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_30_27_02_NumeralSystems/code/Lesson_30_27_02_NumeralSystems/Lesson_30_27_02_NumeralSystems.iml" filepath="$PROJECT_DIR$/It/Lesson_30_27_02_NumeralSystems/code/Lesson_30_27_02_NumeralSystems/Lesson_30_27_02_NumeralSystems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_31_28_02_Files_IO/code/Lesson_31_28_02_Files_IO/Lesson_31_28_02_Files_IO.iml" filepath="$PROJECT_DIR$/It/Lesson_31_28_02_Files_IO/code/Lesson_31_28_02_Files_IO/Lesson_31_28_02_Files_IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_3_19_01_int_short_double/code/Lesson_3_19_01_int_short_double/Lesson_3_19_01_int_short_double.iml" filepath="$PROJECT_DIR$/It/Lesson_3_19_01_int_short_double/code/Lesson_3_19_01_int_short_double/Lesson_3_19_01_int_short_double.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_5_23_01_boolean/code/Lesson_5_23_01_boolean/Lesson_5_23_01_boolean.iml" filepath="$PROJECT_DIR$/It/Lesson_5_23_01_boolean/code/Lesson_5_23_01_boolean/Lesson_5_23_01_boolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_6_24_01_Scanner_Math/code/Lesson_6_24_01_Scanner_Math/Lesson_6_24_01_Scanner_Math.iml" filepath="$PROJECT_DIR$/It/Lesson_6_24_01_Scanner_Math/code/Lesson_6_24_01_Scanner_Math/Lesson_6_24_01_Scanner_Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_7_25_01_char_String_ascii/code/Lesson_7_25_01_char_String_ascii/Lesson_7_25_01_char_String_ascii.iml" filepath="$PROJECT_DIR$/It/Lesson_7_25_01_char_String_ascii/code/Lesson_7_25_01_char_String_ascii/Lesson_7_25_01_char_String_ascii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_8_26_01_Class_Object_Literal/code/Lesson_8_26_01_Class_Object_Literal/Lesson_8_26_01_Class_Object_Literal.iml" filepath="$PROJECT_DIR$/It/Lesson_8_26_01_Class_Object_Literal/code/Lesson_8_26_01_Class_Object_Literal/Lesson_8_26_01_Class_Object_Literal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok.iml" filepath="$PROJECT_DIR$/It/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok.iml" />
       <module fileurl="file://$PROJECT_DIR$/It/Restaurant_project/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/It/Restaurant_project/Restaurant/Restaurant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_20_13_02_TryCatch/TryCatch/TryCatch.iml" filepath="$PROJECT_DIR$/It/Lesson_20_13_02_TryCatch/TryCatch/TryCatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/It/Lessons/Lesson_02_02/code/code.iml" filepath="$PROJECT_DIR$/It/Lessons/Lesson_02_02/code/code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_27_01_formatirovanie_strok/code1/code1.iml" filepath="$PROJECT_DIR$/It/Lesson_27_01_formatirovanie_strok/code1/code1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_30_01_replace_method/homework/homework.iml" filepath="$PROJECT_DIR$/It/Lesson_30_01_replace_method/homework/homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/It/Lessons/Lesson_02_02!/l_02_02/l_02_02.iml" filepath="$PROJECT_DIR$/It/Lessons/Lesson_02_02!/l_02_02/l_02_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_25_01_char_ascii/lesson/lesson.iml" filepath="$PROJECT_DIR$/It/Lesson_25_01_char_ascii/lesson/lesson.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_26_01_Class_Object_Literal/lesson_26_01/lesson_26_01.iml" filepath="$PROJECT_DIR$/It/Lesson_26_01_Class_Object_Literal/lesson_26_01/lesson_26_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_19_01_min_max/min_max/min_max.iml" filepath="$PROJECT_DIR$/It/Lesson_19_01_min_max/min_max/min_max.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Consultations_Andrej_Reutow/seaButtle/seaButtle.iml" filepath="$PROJECT_DIR$/It/Consultations_Andrej_Reutow/seaButtle/seaButtle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_01_02_Switch/switch/switch.iml" filepath="$PROJECT_DIR$/It/Lesson_01_02_Switch/switch/switch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Lesson_23_01_vysokos_god/vysokos_god/vysokos_god.iml" filepath="$PROJECT_DIR$/It/Lesson_23_01_vysokos_god/vysokos_god/vysokos_god.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Consultations_Andrej_Reutow/code/seaButtle/seaButtle.iml" filepath="$PROJECT_DIR$/It/Consultations_Andrej_Reutow/code/seaButtle/seaButtle.iml" />
     </modules>
   </component>
 </project>
