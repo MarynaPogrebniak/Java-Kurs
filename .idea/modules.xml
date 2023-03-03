@@ -3,11 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-kurs.iml" filepath="$PROJECT_DIR$/.idea/Java-kurs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/It/Restaurant/Restaurant.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lessons/Lesson1/code/code.iml" filepath="$PROJECT_DIR$/Lessons/Lesson1/code/code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lessons/Lesson2/l_02_02/l_02_02.iml" filepath="$PROJECT_DIR$/Lessons/Lesson2/l_02_02/l_02_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/l_03_03_wiederholung/l_03_03_wiederholung.iml" filepath="$PROJECT_DIR$/It/l_03_03_wiederholung/l_03_03_wiederholung.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It/l_01_02/switch/switch.iml" filepath="$PROJECT_DIR$/It/l_01_02/switch/switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/l_01_03_Enum/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" filepath="$PROJECT_DIR$/It/l_01_03_Enum/Lesson_01_03_Enum/Lesson_01_03_Enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" filepath="$PROJECT_DIR$/It/Lesson_02_02_while_do_while/code/Lesson_02_02/Lesson_02_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/l_23_01/Lesson_23_01/Lesson_23_01.iml" filepath="$PROJECT_DIR$/It/l_23_01/Lesson_23_01/Lesson_23_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_30_01_replace_method/code/Lesson_30_01/Lesson_30_01.iml" filepath="$PROJECT_DIR$/It/Lesson_30_01_replace_method/code/Lesson_30_01/Lesson_30_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_24_01_Math/Math/Math.iml" filepath="$PROJECT_DIR$/It/Lesson_24_01_Math/Math/Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Restaurant_project/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/It/Restaurant_project/Restaurant/Restaurant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lessons/Lesson_02_02/code/code.iml" filepath="$PROJECT_DIR$/It/Lessons/Lesson_02_02/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_27_01_formatirovanie_strok/code1/code1.iml" filepath="$PROJECT_DIR$/It/Lesson_27_01_formatirovanie_strok/code1/code1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_30_01_replace_method/homework/homework.iml" filepath="$PROJECT_DIR$/It/Lesson_30_01_replace_method/homework/homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lessons/Lesson_02_02!/l_02_02/l_02_02.iml" filepath="$PROJECT_DIR$/It/Lessons/Lesson_02_02!/l_02_02/l_02_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_25_01_char_ascii/lesson/lesson.iml" filepath="$PROJECT_DIR$/It/Lesson_25_01_char_ascii/lesson/lesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_26_01_Class_Object_Literal/lesson_26_01/lesson_26_01.iml" filepath="$PROJECT_DIR$/It/Lesson_26_01_Class_Object_Literal/lesson_26_01/lesson_26_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_19_01_min_max/min_max/min_max.iml" filepath="$PROJECT_DIR$/It/Lesson_19_01_min_max/min_max/min_max.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Consultations_Andrej_Reutow/seaButtle/seaButtle.iml" filepath="$PROJECT_DIR$/It/Consultations_Andrej_Reutow/seaButtle/seaButtle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_01_02_Switch/switch/switch.iml" filepath="$PROJECT_DIR$/It/Lesson_01_02_Switch/switch/switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Lesson_23_01_vysokos_god/vysokos_god/vysokos_god.iml" filepath="$PROJECT_DIR$/It/Lesson_23_01_vysokos_god/vysokos_god/vysokos_god.iml" />
     </modules>
   </component>
 </project>
