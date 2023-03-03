@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-kurs.iml" filepath="$PROJECT_DIR$/.idea/Java-kurs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/It/Restaurant/Restaurant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons/Lesson1/code/code.iml" filepath="$PROJECT_DIR$/Lessons/Lesson1/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons/Lesson2/l_02_02/l_02_02.iml" filepath="$PROJECT_DIR$/Lessons/Lesson2/l_02_02/l_02_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/l_03_03_wiederholung/l_03_03_wiederholung.iml" filepath="$PROJECT_DIR$/It/l_03_03_wiederholung/l_03_03_wiederholung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It/l_01_02/switch/switch.iml" filepath="$PROJECT_DIR$/It/l_01_02/switch/switch.iml" />
+    </modules>
+  </component>
+</project>
