@@ -14,6 +14,7 @@ public class hw {
     //при реализации использовать метод(ы).
 
     List <String> list = new ArrayList<>();
+
     fillingArray(list);
     for (String i: list) {
       System.out.print(i + " | ");
