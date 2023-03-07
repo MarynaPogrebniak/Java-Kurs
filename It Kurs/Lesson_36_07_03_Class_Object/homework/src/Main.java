@@ -8,6 +8,7 @@ public class Main {
     System.out.println(firstDog);
     System.out.println(secondDog);
     System.out.println(thirdDog);
+    //m
 
     System.out.println("First dog age is " + firstDog.getAge());
     System.out.println("Second dog name is " + secondDog.getBreed());
