@@ -23,7 +23,7 @@ public class Main {
     System.out.println(thirdWine);
 
     System.out.println();
-    firstWine.onStock();
+    System.out.println("на складе имеется " + firstWine.onStock(6) + " бутылок " + firstWine.name);
 
     System.out.println();
 
