@@ -10,14 +10,15 @@ public class Main {
 
   public static void main(String[] args) {
     boolean wrong_input = true;
+    Scanner sc = new Scanner(System.in);
+    HashMap<Integer, Boolean> tables = new HashMap<Integer, Boolean>();
+
     System.out.println("Добро пожаловать в наш ресторан!");
     // Небольшой ресторан, в котором имеется 5 столиков, хочет внедрить у себя вежливого
     // телефонного администратора (бота), который:
     // - принимает звонок от потенциального клиента;
     // - сообщает о наличии свободных стликов;
     // - при желании клиента выполняет бронирование столика.
-
-    HashMap<Integer, Boolean> tables = new HashMap<Integer, Boolean>();
 
     //  столы свободны = false (не заняты)
     tables.put(1, false);
@@ -26,7 +27,7 @@ public class Main {
     tables.put(4, false);
     tables.put(5, false);
 
-    Scanner sc = new Scanner(System.in);
+
     while (true) {
       do {
         try {

@@ -4,60 +4,89 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class example {
-
+  // Небольшой ресторан, в котором имеется 5 столиков, хочет внедрить у себя вежливого
+  // телефонного администратора (бота), который:
+  // - принимает звонок от потенциального клиента;
+  // - сообщает о наличии свободных стликов;
+  // - при желании клиента выполняет бронирование столика.
   public static void main(String[] args) {
-    System.out.println("Добро пожаловать в наш ресторан!");
-    // Небольшой ресторан, в котором имеется 5 столиков, хочет внедрить у себя вежливого
-    // телефонного администратора (бота), который:
-    // - принимает звонок от потенциального клиента;
-    // - сообщает о наличии свободных стликов;
-    // - при желании клиента выполняет бронирование столика.
+
     Scanner sc = new Scanner(System.in);
     HashMap<Integer, Boolean> tables = new HashMap<Integer, Boolean>();
     // Подготовка к сохранению статуса столов в файле
-    String path = "C:\\Users\\AIT TR Student\\IdeaProjects\\It\\Restaurant\\src\\";
+    String path = "C:\\Users\\AIT TR Student\\Documents\\GitHub\\Java-kurs\\It Kurs\\Restaurant_project\\Restaurant\\src\\";
     String fileName = "tables_status.txt";
-    // задаем статус столиков: все столики свободны
+
+    System.out.println("Добро пожаловать в наш ресторан!");
 
     get_table_status_from_file(path, "tables_status.txt", tables);
-
+// задаем статус столиков: все столики свободны
     tables.put(1, false);
     tables.put(2, false);
     tables.put(3, false);
     tables.put(4, false);
     tables.put(5, false);
     boolean is_full = false; // инициализация переменой - в ресторане есть свободные столики
+    boolean wrong_input = true;
+
 
     while (!is_full) { // начало цикла
 
-      //________________________________
-      // считывание статуса столиков из файла
-      // get_table_status_from_file(); - это надо реализовать
-      //________________________________
-      // Проверка на наличие свободных столиков
-      is_full = is_full(tables, 5); // значение переменной is_full определяется в методе
+      try {
+  //________________________________
+  // считывание статуса столиков из файла
+  // get_table_status_from_file(); - это надо реализовать
+  //________________________________
+  // Проверка на наличие свободных столиков
+  is_full = is_full(tables, 5); // значение переменной is_full определяется в методе
 
-      if (!is_full) {
-        System.out.println("У нас есть свободные столики!");
-      } else {
-        System.out.println("Извините, у нас все столики заняты.");
-        break;
+  if (!is_full) {
+    System.out.println("Здравствуйте!");
+    System.out.println("У нас есть свободные столики!");
+  } else {
+    System.out.println("Извините, у нас все столики заняты.");
+    break;
+  }
+
+  print_table_status(tables); // метод печатает статус столов
+  System.out.println("Выберите номер столика: "); // запрос к пользователю
+
+  int table_num = sc.nextInt();
+  sc.nextLine(); // очистить сканер
+
+
+  if (table_num > 0 && table_num <= tables.size()) {
+
+    System.out.println("Введите Ваше имя для бронирования столика: ");
+    String name_reserve = sc.nextLine(); // имя на кого резерв
+
+    reserv_table(tables, table_num); // метод, который резервирует стол
+    // ________________________
+    create_file(path, fileName); // создаем файл
+    // ________________________
+    save_table_status(tables, path, fileName); // сохраняем статус столов в файле
+    // ________________________
+   // print_table_status(tables);
+  } else {
+    System.out.println("Введите число с номером доступных столиков");
+  }
+
+} catch (InputMismatchException e) {
+  System.out.println(
+      "Чтобы забронировать столик, введите число с номером свободного столика");
+  System.out.println();
+  sc.nextLine();
+  wrong_input = true;
+  if (wrong_input) {
+    continue;
+       }
       }
-
-      print_table_status(tables); // метод печатает статус столов
-      System.out.println("Выберите номер столика: "); // запрос к пользователю
-      int table_num = sc.nextInt();
-      reserv_table(tables, table_num); // метод, который резервирует стол
-      // ________________________
-      create_file(path, fileName); // создаем файл
-      // ________________________
-      save_table_status(tables, path, fileName); // сохраняем статус столов в файле
-      // ________________________
-      print_table_status(tables);
-    }  // конец цикла
+    }
+    // конец цикла
     System.out.println("Мест нет, приходите позже.");
   }
 
@@ -112,7 +141,7 @@ public class example {
         // System.out.println();
       }
       myWriter.close();
-      System.out.println("Успешная запись в файл.");
+      //System.out.println("Успешная запись в файл.");
     } catch (IOException e) {
       System.out.println("Произошла ошибка.");
       e.printStackTrace();
@@ -123,9 +152,9 @@ public class example {
     try {
       File myFile = new File(p + file_name);
       if (myFile.createNewFile()) {
-        System.out.println("Файл создан: " + myFile.getName());
+      //  System.out.println("Файл создан: " + myFile.getName());
       } else {
-        System.out.println("Файл уже существует.");
+      //  System.out.println("Файл уже существует.");
       }
     } catch (IOException e) {
       System.out.println("Произошла ошибка.");
