@@ -38,8 +38,9 @@ public class Pawn {
 
       int diffRow = row - this.row;//если вверх, то +, если влево то -
       int diffColumn = column - this.column; //если вправо, то +, если влево то -
-
-
+    if (diffRow == 0 && diffColumn ==0){
+    throw  new IllegalArgumentException("Нельзя шагать на месте");
+    }
 
   }
 
