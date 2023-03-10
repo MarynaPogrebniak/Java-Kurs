@@ -36,9 +36,8 @@ public class Pawn {
     checkCoordinates(row, column);
     // TODO проверка возможности хода
 
-      int diffRow = row - this.row; //если вправо, то +, если влево то -
-      int diffColumn = column - this.column;//если вверх, то +, если влево то -
-
+      int diffRow = row - this.row;//если вверх, то +, если влево то -
+      int diffColumn = column - this.column; //если вправо, то +, если влево то -
 
 
 
