@@ -1,8 +1,4 @@
 public class Pawn {
-  public enum Color {
-    WHITE,
-    BLACK,
-  }
 
   private Color color;
   private int row;
@@ -38,9 +34,27 @@ public class Pawn {
 
       int diffRow = row - this.row;//если вверх, то +, если влево то -
       int diffColumn = column - this.column; //если вправо, то +, если влево то -
-    if (diffRow == 0 && diffColumn ==0){
-    throw  new IllegalArgumentException("Нельзя шагать на месте");
+      if (diffRow == 0 && diffColumn ==0){
+        throw  new IllegalArgumentException("Нельзя шагать на месте");
     }
+      if (diffColumn !=0){ // попытались изменить столбец
+        throw  new IllegalArgumentException("Пешка не может двигаться по горизонтали");
+    }
+      if (color == Color.WHITE && diffRow < 0 || color == Color.BLACK && diffRow > 0){
+        throw  new IllegalArgumentException("Пешка не может ходить назад");
+      }
+      if (Math.abs(diffRow) > 2) {
+        throw new IllegalArgumentException("Пешка не может ходить так далеко");
+
+      }
+      boolean firstWhiteStep = color == Color.WHITE && this.row == 2;
+    boolean firstBlackStep = color == Color.BLACK && this.row == 7;
+    boolean firstStep = firstWhiteStep || firstBlackStep;
+
+    if (! (color == Color.WHITE && this.row == 7) && Math.abs(diffRow) > 1){
+
+      }
+
 
   }
 
