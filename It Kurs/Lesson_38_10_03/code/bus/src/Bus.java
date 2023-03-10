@@ -44,6 +44,10 @@ int price;
     this.driverName = driverName;
   }
 
+  public void setPrice(int price) {
+    this.price = price;
+  }
+
   @Override
   public String toString() {
     return "Bus{" +
@@ -53,5 +57,12 @@ int price;
         ", speed=" + speed +
         ", price=" + price +
         '}';
+  }
+
+  public static void getRevenueBus(int capacity, int price) {
+  int busFullness = (int) (capacity * 0.6);
+  int peoplePerDay = 5 * busFullness;
+  int busRevenue = peoplePerDay * price;
+    System.out.println("Bus revenue is: " + busRevenue);
   }
 }
