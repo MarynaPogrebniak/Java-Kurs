@@ -1,11 +1,11 @@
-// класс "Пешка"
-public class Pawn {
+// класс "Ладья"
+public class Rook {
 
   private Color color;
   private int row;
   private int column;
 
-  public Pawn(Color color, int row, int column) {
+  public Rook(Color color, int row, int column) {
     this.color = color;
 
     checkCoordinates(row, column);
@@ -34,21 +34,13 @@ public class Pawn {
     if (diffRow == 0 && diffColumn == 0) {
       throw new IllegalArgumentException("Нельзя шагать на месте");
     }
-    if (diffColumn != 0) { // попытались изменить столбец
-      // не учитываем атаки!
-      throw new IllegalArgumentException("Пешка не может двигаться по горизонтали");
-    }
-    if (color == Color.WHITE && diffRow < 0 || color == Color.BLACK && diffRow > 0) {
-      throw new IllegalArgumentException("Пешка не может ходить назад");
-    }
-    if (Math.abs(diffRow) > 2) {
-      throw new IllegalArgumentException("Пешка не может ходить так далеко");
-    }
-    boolean firstWhiteStep = (color == Color.WHITE && this.row == 2); // строка с белыми пешками
-    boolean firstBlackStep = (color == Color.BLACK && this.row == 7); // строка с чёрными пешками
-    boolean firstStep = firstWhiteStep || firstBlackStep;
-    if (!firstStep && Math.abs(diffRow) > 1) {
-      throw new IllegalArgumentException("Пешка не может ходить так далеко");
+    // движение по одной линии (горизонтали или вертикали)
+    // diffRow == 0 || diffColumn == 0 - либо строка, либо столбец не меняются - всё хорошо
+    // !(diffRow == 0 || diffColumn == 0) - всё плохо
+    // diffRow != 0 && diffColumn != 0 - меняется одновременно и строка, и столбец - всё плохо
+    if (!(diffRow == 0 || diffColumn == 0)) {
+      throw new IllegalArgumentException(
+          "Ладья может ходить только по горизонтали или по вертикали");
     }
     // если попали сюда, то прошли все проверки и метод просто завершается без ошибок
   }
