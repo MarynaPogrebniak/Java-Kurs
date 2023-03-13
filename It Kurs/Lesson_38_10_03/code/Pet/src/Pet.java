@@ -88,8 +88,6 @@ public class Pet {
       String birthday = line.substring(sepIndex+1);
       return new Pet(kindName, name, weight, birthday);
     } */
-
   }
-
-  }
+}
 

@@ -10,9 +10,7 @@ public class Main {
 //Формат входных данных: количество строк с записями о домашних животных, затем сами записи в описанном формате.
   public static void main(String[] args) throws IOException {
 
-
-
-  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     List <Pet> pets = new ArrayList<>();
     System.out.println("Quantity of pets");
     int petsQuantity= Integer.parseInt(br.readLine());
