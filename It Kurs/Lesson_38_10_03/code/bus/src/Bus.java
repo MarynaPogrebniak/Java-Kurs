@@ -18,14 +18,17 @@
  */
 public class Bus {
 int busLine;
-String driverName;
+public Driver driver;
 int capacity;
 int speed;
 int price;
 
-  public Bus(int busLine, String driverName, int capacity, int speed, int price) {
+ public void setDriver (Driver driver) {
+   this.driver = driver;
+ }
+
+  public Bus(int busLine, int capacity, int speed, int price) {
     this.busLine = busLine;
-    this.driverName = driverName;
     this.capacity = capacity;
     if (speed <= 60 && speed > 0){
       this.speed = speed;
@@ -40,10 +43,6 @@ int price;
     this.price = price;
   }
 
-  public void setDriverName(String driverName) {
-    this.driverName = driverName;
-  }
-
   public void setPrice(int price) {
     this.price = price;
   }
@@ -51,10 +50,10 @@ int price;
   @Override
   public String toString() {
     return "Bus{" +
-        "busLine=" + busLine +
-        ", driverName='" + driverName + '\'' +
+        "busLine=" + busLine + '\'' +
         ", capacity=" + capacity +
-        ", speed=" + speed +
+        ", speed=" + speed +'\'' +
+        "Водитель: " + getDriver().name + "\n" +
         ", price=" + price +
         '}';
   }
@@ -64,5 +63,12 @@ int price;
   int peoplePerDay = 5 * busFullness;
   int busRevenue = peoplePerDay * price;
     System.out.println("Bus revenue is: " + busRevenue);
+  }
+
+  public void go () {
+    System.out.println("Bus " + this.busLine + " have a Driver " + driver.getName());
+  }
+  public Driver getDriver (){
+   return driver;
   }
 }

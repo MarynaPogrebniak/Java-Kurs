@@ -12,24 +12,25 @@ public class Main {
 
   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     List <Pet> pets = new ArrayList<>();
-    System.out.println("quantity");
-   int petsss= Integer.parseInt(br.readLine());
-    for (int petsId = 0; petsId < petsss; ++petsId) {
+    System.out.println("Quantity of pets");
+    int petsQuantity= Integer.parseInt(br.readLine());
+      for (int petsId = 0; petsId < petsQuantity; ++petsId) {
       readKind(br, pets);
     }
+      //"dog,кличка", "cat,кличка,вес", "turtle,кличка,вес,дата рождения".
       for (Pet pet : pets) {
-        System.out.println("Name " + pet.getName() + ", weight " + pet.getWeight() + ", kind " +pet.getKind() + ", birthday " + pet.getBirthday());
+        System.out.println("Kind of pet " +pet.getKind() + ", name " + pet.getName() + ", weight " + pet.getWeight() + ", birthday " + pet.getBirthday());
     }
 
   }private static void readKind(BufferedReader br, List<Pet> pets) throws IOException {
-    System.out.println("kindname");
-    String kindName = br.readLine();
-    System.out.println("kindNumber");
+    System.out.println("Kind of pet");
+    String kindPet = br.readLine().toUpperCase();
+    System.out.println("KindNumber");
     int kindNumber = Integer.parseInt(br.readLine());
     for (int i = 0; i < kindNumber; ++i) {
       System.out.println("line");
       String line = br.readLine();
-      Pet pet = Pet.parsePet(kindName, line);
+      Pet pet = Pet.parsePet(kindPet, line);
       pets.add(pet);
     }
   }

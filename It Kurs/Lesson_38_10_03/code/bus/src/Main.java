@@ -18,20 +18,23 @@ public class Main {
 
   public static void main(String[] args) {
 
-    Bus bus1 = new Bus(23, "Petr", 36,50, 1);
+    Bus bus1 = new Bus(23, 36,50, 1);
     //System.out.println(bus1);
     bus1.setPrice(2);
     //System.out.println(bus1.price);
-    bus1.setDriverName("Ivan");
-    //System.out.println(bus1.driverName);
+
     System.out.println("Информация об автобусе:\n"
         + "  Номер маршрута : " + bus1.busLine + "\n"
         + "  Вместимость: " + bus1.capacity + " кресел\n"
-        + "  Водитель: " + bus1.driverName + "\n"
         + "  Скорость на маршруте: " + bus1.speed);
 
-    Driver driver1 = new Driver("Vasya", 12);
+    Driver driver1 = new Driver("Vasya", 35);
     System.out.println(driver1);
+
+    driver1.go(bus1);
+    System.out.println(bus1.getDriver().name);
+
+    System.out.println(bus1);
 
     Passenger passenger1 = new Passenger("Slavik", 12);
     System.out.println(passenger1);

@@ -15,9 +15,9 @@ public class Pet {
 
   final private static char SEP = ',';
   private Kind kind;
-  private static String name;
+  private String name;
   private String birthday;
-  private static double weight;
+  private double weight;
 
   public Pet(String kind, String name, double weight) {
     this.kind = Kind.valueOf(kind);
@@ -70,24 +70,25 @@ public class Pet {
 
   // статический метод для создания животного при прочтении данных из строки
   // "dog,кличка", "cat,кличка,вес", "turtle,кличка,вес,дата рождения".
-  public static Pet parsePet (String kindName, String line){
+  public static Pet parsePet (String kindPet, String line){
     int sepIndex = line.indexOf(SEP);
     if (sepIndex != -1) {
       String name = line.substring(0, sepIndex);
       double weight = Double.parseDouble(line.substring(sepIndex + 1)); // начинаем ПОСЛЕ разделителя
-      return new Pet(kindName, name, weight);
-    } /*else if (sepIndex != -1) {
+      return new Pet(kindPet, name, weight);
+    }else if (sepIndex == -1) {
       String name = line.substring(0);
-      return new Pet(kindName, name);
-    }*/ /* else if (sepIndex != -1) {
-      String name = line.substring(0, sepIndex);
-      double weight = Double.parseDouble(line.substring(sepIndex + 1));
-      String birthday = line.substring(sepIndex);
-      return  new Pet (kindName, name, weight, birthday);
-    }*/
-
-    //String birthday = line.substring(sepIndex);
+      return new Pet(kindPet, name);
+    }
     return null;
+    
+  /*else if (sepIndex != -1) {
+      String name = line.substring(0, sepIndex);
+      double weight = Double.parseDouble(line.substring(sepIndex + 1, sepIndex)); // начинаем ПОСЛЕ разделителя
+      String birthday = line.substring(sepIndex+1);
+      return new Pet(kindName, name, weight, birthday);
+    } */
+
   }
 
   }
