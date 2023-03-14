@@ -17,21 +17,25 @@ public class Drink extends Food{
 //  для негазированного - "скр",
 //  а для алкогольного сначала спрашивает возраст и издаёт звук, только если возраст больше 18.
   public void openDrink (boolean carbonatedDrink, boolean alcoholicDrink) {
-    if (carbonatedDrink) {
-      System.out.println("пшш");
-    } else {
-      System.out.println("скр");
-    }
 
     if (alcoholicDrink) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Введите Ваш возраст");
-    int age = sc.nextInt();
-    if (age >= 18) {
-      System.out.println("парампампампшшшшшшш");
-    } else {
-      System.out.println("Вам возраст меньше 18");
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Введите Ваш возраст");
+      int age = sc.nextInt();
+
+      if (age >= 18) {
+        if (carbonatedDrink) {
+          System.out.println("Напиток алкогольный, газированный. пшш");
+        } else {
+          System.out.println("Напиток алкогольный, негазированный. скр");
+        }
+      } else System.out.println("Вам возраст меньше 18");
     }
+
+    else if (carbonatedDrink) {
+      System.out.println("Напиток безалкогольный, газированный. пшш");
+    } else {
+      System.out.println("Напиток безалкогольный, негазированный. скр");
     }
   }
 }

@@ -17,6 +17,7 @@ public class Main {
 
    Food tomatoes = new Food("Tomatoes", 25);
    tomatoes.eatFood();
+   System.out.println();
 
    Drink milk = new Drink("Milk", 30, false, false);
    milk.openDrink(false,false);
