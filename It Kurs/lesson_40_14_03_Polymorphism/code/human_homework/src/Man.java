@@ -8,9 +8,4 @@ public class Man extends Human{
   public String toString() {
     return "Мужчина по имени " + name;
   }
-
-  @Override
-  public void greetings() {
-    super.greetings();
-  }
 }
