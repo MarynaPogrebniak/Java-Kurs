@@ -4,6 +4,7 @@ public class Main {
 
   Human human = new Human("Человек", "Человечный");
   Programmer programmer1 = new Programmer("Vasya", "Vasechkin");
+
   Sportsman sportsman = new Sportsman("Александ", "Александров");
   Marketer marketer = new Marketer("Марина", "Погребняк");
 
@@ -21,5 +22,6 @@ public class Main {
 
     System.out.println(human1);
     human1.work();
+
   }
 }
