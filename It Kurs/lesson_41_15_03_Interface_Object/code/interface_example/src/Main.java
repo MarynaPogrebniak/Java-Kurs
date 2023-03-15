@@ -6,6 +6,5 @@ public class Main {
     vehicle.moveFast();
     vehicle.moveSlow();
 
-
-      }
+   }
 }

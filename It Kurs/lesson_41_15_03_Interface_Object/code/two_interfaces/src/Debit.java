@@ -1,3 +1,4 @@
-public class Debit {
+public interface Debit {
 
+  public void debitMethod();
 }

@@ -1,3 +1,5 @@
-public class Credit {
+public interface Credit {
+
+  public void creditMethod(); //Interface method
 
 }
