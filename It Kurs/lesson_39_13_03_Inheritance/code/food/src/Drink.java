@@ -25,7 +25,8 @@ public class Drink extends Food{
 
       if (age >= 18) {
         if (carbonatedDrink) {
-          System.out.println("Напиток алкогольный, газированный. пшш");
+          System.out.println("Напиток "
+              + "алкогольный, газированный. пшш");
         } else {
           System.out.println("Напиток алкогольный, негазированный. скр");
         }
