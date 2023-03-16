@@ -7,15 +7,15 @@ public class Pizza {
 
   public Pizza(String title, int weight) {
     this.title = title;
-    try {
+   // try {
       this.weight = weight;
       if (this.weight < 0) {
         throw new IncorrectWeightException(this.weight);
       }
-    } catch (IncorrectWeightException e) {
-      System.err.println(e.getMessage());
-      return;
-    }
+ //   } catch (IncorrectWeightException e) {
+   //   System.err.println(e.getMessage());
+     // return;
+  //  }
   }
 
   @Override
