@@ -25,7 +25,7 @@ public class PizzaRunner {
       }
       catch (IncorrectWeightException e) {
         System.err.println(e.getMessage());
-        return;
+        //return; не нужен
       }
      // при проверке уникальности объекта Java сравнивает объекты через
       // метод equals().
