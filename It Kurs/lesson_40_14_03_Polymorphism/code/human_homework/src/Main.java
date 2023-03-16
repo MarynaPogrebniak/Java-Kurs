@@ -22,8 +22,8 @@ public class Main {
     System.out.println(woman);
     System.out.println(man);
 
-    human.greetings();
-    woman.greetings();
-    man.greetings();
+    human.greet();
+    woman.greet();
+    man.greet();
   }
 }

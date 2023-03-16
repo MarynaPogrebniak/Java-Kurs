@@ -1,6 +1,6 @@
 public class Human {
 
-  String name;
+  private String name;
 
   public Human(String name) {
     this.name = name;
@@ -11,7 +11,11 @@ public class Human {
     return "Человек по имени " + name;
   }
 
-  public void greetings (){
+  public void greet(){
     System.out.println("Я родился");
+  }
+
+  public String getName() {
+    return name;
   }
 }

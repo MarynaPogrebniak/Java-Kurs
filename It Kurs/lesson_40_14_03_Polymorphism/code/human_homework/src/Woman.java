@@ -6,11 +6,11 @@ public class Woman extends Human{
 
   @Override
   public String toString() {
-    return "Женщина по имени " + name;
+    return "Женщина по имени " + getName();
   }
 
   @Override
-  public void greetings() {
+  public void greet() {
     System.out.println("Я родилась");
   }
 }
