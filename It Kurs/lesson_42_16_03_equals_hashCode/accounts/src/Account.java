@@ -10,11 +10,11 @@ public class Account {
   // с именем и электронной почтой, которые задаются при создании.
   public Account(String name, String email) {
     this.name = name;
-    reputation = 0;
-    this.email = email;
-    if (!(this.email.contains("@"))) {
-      throw new InvalidEmail(this.email);
+    if (!email.contains("@")) {
+      throw new InvalidEmail(email);
     }
+    this.email = email;
+    reputation = 0;
   }
 
   // сеттеров не будет (или будут приватными) - поля нельзя менять по условию
