@@ -5,17 +5,13 @@ public class Pizza {
   private String title;
   private int weight;
 
+
   public Pizza(String title, int weight) {
     this.title = title;
-   // try {
       this.weight = weight;
       if (this.weight < 0) {
         throw new IncorrectWeightException(this.weight);
       }
- //   } catch (IncorrectWeightException e) {
-   //   System.err.println(e.getMessage());
-     // return;
-  //  }
   }
 
   @Override

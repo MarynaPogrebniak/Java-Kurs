@@ -12,7 +12,7 @@ import exceptions.Alcohol2;
 public class IncorrectWeightException extends IllegalArgumentException{
 
   public IncorrectWeightException(int weight) {
-    super("Вес не может быть отрицательным: [некорректный вес]: " + weight + "г");
+    super("Вес не может быть отрицательным: " + weight + "г");
   }
   public IncorrectWeightException(String message) {
   super(message);

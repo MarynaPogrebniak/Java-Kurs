@@ -23,8 +23,12 @@ public class PizzaRunner {
         pizzas.add(tempPizza);
       }
       catch (IncorrectWeightException e) {
-        System.err.println(e.getMessage());
+        System.err.println("Некорректный вес " + e.getMessage());
+        System.out.println("Данные про пиццу не добавлены");
         //return; не нужен
+      }
+      catch (NumberFormatException e) {
+        System.out.println("Введите целое число: " + e.getMessage());
       }
      // при проверке уникальности объекта Java сравнивает объекты через
       // метод equals().
