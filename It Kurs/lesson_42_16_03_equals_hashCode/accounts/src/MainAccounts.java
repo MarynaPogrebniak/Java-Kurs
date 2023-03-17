@@ -52,8 +52,15 @@ public class MainAccounts {
   public static Account readAccount(BufferedReader br) throws IOException {
     System.out.print("Введите имя: ");
     String name = br.readLine();
+    String email = null;
     System.out.print("Введите e-mail: ");
-    String email = br.readLine();
-    return new Account(name, email);
+      try {
+        email = br.readLine();
+        return new Account(name, email);
+    } catch (InvalidEmail e) {
+        System.err.println("Некорректный email. " + e.getMessage());
+        System.out.println("Данные про email не добавлены");
+    } return new Account(name, email);
   }
-}
+ }
+

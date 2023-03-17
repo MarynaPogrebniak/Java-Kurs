@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-
 // Нам нужен класс "Учётная запись"
 public class Account {
 
@@ -14,8 +10,11 @@ public class Account {
   // с именем и электронной почтой, которые задаются при создании.
   public Account(String name, String email) {
     this.name = name;
-    this.email = email;
     reputation = 0;
+    this.email = email;
+    if (!(this.email.contains("@"))) {
+      throw new InvalidEmail(this.email);
+    }
   }
 
   // сеттеров не будет (или будут приватными) - поля нельзя менять по условию
