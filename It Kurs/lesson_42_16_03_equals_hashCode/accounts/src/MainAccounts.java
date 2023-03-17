@@ -56,7 +56,6 @@ public class MainAccounts {
     System.out.print("Введите e-mail: ");
       try {
         email = br.readLine();
-        return new Account(name, email);
     } catch (InvalidEmail e) {
         System.err.println("Некорректный email. " + e.getMessage());
         System.out.println("Данные про email не добавлены");
