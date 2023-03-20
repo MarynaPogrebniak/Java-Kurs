@@ -1,3 +1,5 @@
+package house;
+
 import house.ApartmentHouse;
 import house.House;
 import house.PrivateHouse;
