@@ -1,11 +1,15 @@
 package house;
 
 public class ApartmentHouse extends House{
-  private int entrancesNumber;
+  private final int entrancesNumber;
 
   public ApartmentHouse(String address, int entrancesNumber) {
     super(address);
     this.entrancesNumber = entrancesNumber;
+  }
+
+  public int getEntrancesNumber() {
+    return entrancesNumber;
   }
 
   @Override
