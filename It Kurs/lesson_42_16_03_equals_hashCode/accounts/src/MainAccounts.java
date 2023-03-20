@@ -43,11 +43,11 @@ public class MainAccounts {
     List<Account> result = new ArrayList<>(n);
     for (int k = 1; k <= n; ++k) {
       System.out.println("Введите данные учётной записи №" + k + ":");
-     try {
+     //try {
        result.add(readAccount(br));
-     } catch (InvalidEmail e) {
-       System.out.println("не получилось добавить учетную запись: " + e.getMessage());
-     }
+    // } catch (InvalidEmail e){
+      // System.out.println("не получилось добавить учетную запись: " + e.getMessage());
+    // }
     }
     return result;
   }
