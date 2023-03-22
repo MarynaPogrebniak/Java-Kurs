@@ -7,10 +7,10 @@ import java.util.List;
 
 public class Main {
   //Задача 1
-  //Создайте класс Book (книга), в конструктор которого передавайте автора, название книги и количество страниц.
+  // Используйте класс Book (книга) из предыдущего домашнего задания.
   //
-  //Реализуйте интерфейс для сравнения книг: они должны сортироваться по авторам,
-  // а если авторы совпадают - по названиям (и там, и там - по алфавиту, "в словарном порядке").
+  //Создайте компаратор, который позволит сортировать книги по названию,
+  // при одинаковых названиях - по автору (и там, и там - по алфавиту)
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -22,7 +22,16 @@ public class Main {
       books.add(Book.readBook());
     }
 
+    System.out.println("Сортировка по автору, а потом по названию книги по алфавиту:");
     Collections.sort(books);
+    for (Book book : books) {
+      System.out.println(book);
+    }
+
+    System.out.println();
+
+    Collections.sort(books, new BookTitleComparator());
+    System.out.println("Сортировка по названию книги, а потом по автору по алфавиту:");
     for (Book book : books) {
       System.out.println(book);
     }
