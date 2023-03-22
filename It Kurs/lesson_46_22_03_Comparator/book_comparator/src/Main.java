@@ -35,5 +35,12 @@ public class Main {
     for (Book book : books) {
       System.out.println(book);
     }
+    System.out.println();
+
+    Collections.sort(books,new BookPagesDescendingComparator());
+    System.out.println("Сортировка книги по убыванию количества страниц, а при совпадающем объёме - по названиям(по возрастанию, по алфавиту)");
+    for (Book book : books) {
+      System.out.println(book);
+    }
   }
 }
