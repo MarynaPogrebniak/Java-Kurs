@@ -34,7 +34,7 @@ public class Book implements Comparable <Book>{
 
   @Override
   public int compareTo(Book other) {
-    if (author != other.author) { // если автор не одинаковый
+    if (!author.equals(other.author)) { // если автор не одинаковый
       return author.compareTo(other.author); // то сравниваем авторов
     }
     // сюда попали, если автор одинаковый, и сравниваем названия книг
