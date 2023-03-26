@@ -7,6 +7,9 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 public class BookTests {
+  //Напишите автотесты с использованием JUnit для задачи 1 из предыдущего домашнего задания.
+  //
+  //Проверьте краевые случаи, предусмотрите разные варианты.
 
   @Test
   public void BookWithNegativePages() {
@@ -63,4 +66,27 @@ public class BookTests {
 
     assertEquals(expected, actual);
   }
+
+  @Test
+  public void BookTitleComparator(){
+    Book book1 = new Book("C", "B", 25);
+    Book book2 = new Book("A", "C", 25);
+    Book book3 = new Book("D", "B", 26);
+
+    List<Book> actual = new ArrayList<>();
+    actual.add(book2);
+    actual.add(book1);
+    actual.add(book3);
+
+    List<Book> expected = new ArrayList<>();
+    expected.add(book1);
+    expected.add(book3);
+    expected.add(book2);
+
+    actual.sort(new BookTitleComparator());
+
+    assertEquals(expected, actual);
+  }
+
+
 }
