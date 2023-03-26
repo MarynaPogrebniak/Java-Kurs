@@ -34,12 +34,12 @@
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_7_25_01_char_String_ascii/code/Lesson_7_25_01_char_String_ascii/Lesson_7_25_01_char_String_ascii.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_7_25_01_char_String_ascii/code/Lesson_7_25_01_char_String_ascii/Lesson_7_25_01_char_String_ascii.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_8_26_01_Class_Object_Literal/code/Lesson_8_26_01_Class_Object_Literal/Lesson_8_26_01_Class_Object_Literal.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_8_26_01_Class_Object_Literal/code/Lesson_8_26_01_Class_Object_Literal/Lesson_8_26_01_Class_Object_Literal.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok/Lesson_9_27_01_formatirovanie_strok.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/practice/Overloading/Overloading.iml" filepath="$PROJECT_DIR$/It Kurs/practice/Overloading/Overloading.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/practice/Overloading_return/Overloading_return.iml" filepath="$PROJECT_DIR$/It Kurs/practice/Overloading_return/Overloading_return.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/Overloading/Overloading.iml" filepath="$PROJECT_DIR$/practice/Overloading/Overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/Overloading_return/Overloading_return.iml" filepath="$PROJECT_DIR$/practice/Overloading_return/Overloading_return.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/Pawn/Pawn.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/Pawn/Pawn.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/Pet/Pet.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/Pet/Pet.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/Pet_13_03/Pet_13_03.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/Pet_13_03/Pet_13_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/Phone/Phone.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/Phone/Phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/code/Phone/Phone.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/code/Phone/Phone.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Restaurant_project/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/It Kurs/Restaurant_project/Restaurant/Restaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/Student/Student.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/Student/Student.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/Transport/Transport.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/Transport/Transport.iml" />
@@ -50,10 +50,10 @@
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/airplan/airplan.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/airplan/airplan.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/animals_veterinar/animals_veterinar.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/animals_veterinar/animals_veterinar.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_45_22_03_collections_comparable/code/book/book.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_45_22_03_collections_comparable/code/book/book.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/book_comparator/book_comparator.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/book_comparator/book_comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/code/book_comparator/book_comparator.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/code/book_comparator/book_comparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/bus/bus.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_38_10_03/code/bus/bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/car/car.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/car/car.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/practice/class/class_object/class_object.iml" filepath="$PROJECT_DIR$/It Kurs/practice/class/class_object/class_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/class_object/class_object.iml" filepath="$PROJECT_DIR$/practice/class_object/class_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lessons/Lesson_02_02/code/code.iml" filepath="$PROJECT_DIR$/It Kurs/Lessons/Lesson_02_02/code/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_45_22_03_collections_comparable/code/collections/collections.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_45_22_03_collections_comparable/code/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/code/comparator/comparator.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_46_22_03_Comparator/code/comparator/comparator.iml" />
@@ -65,7 +65,7 @@
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_35 06_03_Class_Object_Constructor/code/example/example.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_35 06_03_Class_Object_Constructor/code/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/food/food.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/food/food.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/handwork_lessons/handwork_lessons.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/handwork_lessons/handwork_lessons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/homework/homework.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/homework/homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/code/homework/homework.iml" filepath="$PROJECT_DIR$/It Kurs/Lesson_36_07_03_Class_Object/code/homework/homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/human/human.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/human/human.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/human_homework/human_homework.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/human_homework/human_homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_41_15_03_Interface_Object/code/interface_example/interface_example.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_41_15_03_Interface_Object/code/interface_example/interface_example.iml" />
@@ -76,6 +76,8 @@
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/phonebook/phonebook.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/phonebook/phonebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/phones/phones.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_40_14_03_Polymorphism/code/phones/phones.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_41_15_03_Interface_Object/code/pizza/pizza.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_41_15_03_Interface_Object/code/pizza/pizza.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_48_25_03_practice/practice_unit/practice_unit.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_48_25_03_practice/practice_unit/practice_unit.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/Consultations_Andrej_Reutow/code/seaButtle/seaButtle.iml" filepath="$PROJECT_DIR$/It Kurs/Consultations_Andrej_Reutow/code/seaButtle/seaButtle.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/shape/shape.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_39_13_03_Inheritance/code/shape/shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/triangle/triangle.iml" filepath="$PROJECT_DIR$/It Kurs/lesson_37_09_03_AbstractClass_Inheritance/code/triangle/triangle.iml" />
