@@ -13,6 +13,9 @@ public class Book implements Comparable <Book>{
   public Book(String author, String title, int pages) {
     this.author = author;
     this.title = title;
+    if (pages < 0) {
+      throw new IllegalArgumentException("Negative pages: " + pages);
+    }
     this.pages = pages;
   }
 
