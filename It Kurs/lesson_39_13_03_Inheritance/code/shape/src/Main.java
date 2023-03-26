@@ -13,8 +13,8 @@ public class Main {
     double squareTriangle = triangle.square();
     System.out.printf("%s %.2f %s\n", "Площадь треугольника - ", squareTriangle, "сантиметров");
 
-    Rechtangle rechtangle = new Rechtangle("Rechtangle", 5, 3);
-    double squareRechtangle = rechtangle.square();
+    RechtangleShape rechtangleShape = new RechtangleShape("Rechtangle", 5, 3);
+    double squareRechtangle = rechtangleShape.square();
     System.out.printf("%s %.2f %s\n", "Площадь прямоугольника - ", squareRechtangle, "сантиметров");
 
     Trapezoid trapezoid = new Trapezoid("Trapezoid", 10,7,6);
