@@ -11,7 +11,7 @@ public class PersonMain {
     Person first = new Person("Кирилл", "12.02.1992");
     Person second = new Person("Андрей", "05.08.1986");
 
-    System.out.println(first.compareTo(second)); //-1
+   // System.out.println(first.compareTo(second)); //-1
     List<Person> persons = new ArrayList<>();
     persons.add(first);
     persons.add(second);
@@ -19,8 +19,5 @@ public class PersonMain {
     for (Person p: persons){
       System.out.println(p);
     }
-
-
   }
-
 }
