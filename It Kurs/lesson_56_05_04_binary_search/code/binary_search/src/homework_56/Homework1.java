@@ -26,12 +26,11 @@ public class Homework1 {
             }
             if (numbers.get(mid) < target) {
                 right = mid;
-            } else { // не = и не < numbers.get(mid) > target
+            } else {
 
-                left = mid+1;// потому что right - не включая
+                left = mid+1;
             }
         }
-        // после окончания цикла right - left = 0 или 1, и проверяем мы numbers[left]
         if (left < numbers.size() && numbers.get(left) == target) {
             return left;
         }
