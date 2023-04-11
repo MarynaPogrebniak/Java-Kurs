@@ -28,7 +28,7 @@ public class Homework1 {
                 right = mid;
             } else {
 
-                left = mid+1;
+                left = mid + 1;
             }
         }
         if (left < numbers.size() && numbers.get(left) == target) {
