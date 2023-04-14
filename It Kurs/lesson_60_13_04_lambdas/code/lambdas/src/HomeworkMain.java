@@ -19,11 +19,10 @@ public class HomeworkMain {
         books.add(new Book("Author 3", "Book 4", 252));
 
         books.sort((Book o1, Book o2) -> {
-            if (!o1.getTitle().equals(o2.getTitle())) {
-                return o1.getTitle().compareTo(o2.getTitle());
-            } else {
-                return o1.getAuthor().compareTo(o2.getAuthor());
+            if (!o1.title().equals(o2.title())) {
+                return o1.title().compareTo(o2.title());
             }
+                return o1.author().compareTo(o2.author());
         });
         for (Book b : books) {
             System.out.println(b);
