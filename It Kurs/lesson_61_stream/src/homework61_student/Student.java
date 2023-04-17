@@ -1,4 +1,4 @@
-package student;
+package homework61_student;
 
 public class Student {
 //    Используйте класс student.Student из урока 60 (см. student.Student.java).
